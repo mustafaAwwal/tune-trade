@@ -43,9 +43,9 @@
         <b-nav-item class="menuElement" @click="toggle()">
             <router-link    class="router-link" :to="{ name: 'SongList', params: {} }">List</router-link>
         </b-nav-item>
-        <b-nav-item  class="menuElement" @click="toggle()">
+        <!-- <b-nav-item  class="menuElement" @click="toggle()">
             <router-link  exact  class="router-link"   :to="{ name: 'NewContract', params: {} }">Create Token </router-link>
-        </b-nav-item>
+        </b-nav-item> -->
         <b-nav-item  class="menuElement" @click="toggle()">
             <router-link  exact  class="router-link"   :to="{ name: 'ListToken', params: {} }">List Token </router-link>
         </b-nav-item>
